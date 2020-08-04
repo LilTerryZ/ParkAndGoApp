@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title= "@string/menu_receipt" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/menu_search" />
+        <item
+            android:id="@+id/nav_updateProfile"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="@string/update_profile" />
+
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/menu_help" />
+            <item
+                android:id="@+id/nav_consumerSupport"
+                android:icon="@drawable/ic_settings_phone_black_24dp"
+                android:title="@string/menu_consumerSupport" />
+        </menu>
+    </item>
+
+
+</menu>
